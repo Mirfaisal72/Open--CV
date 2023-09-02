@@ -1,7 +1,7 @@
 # Image Manipulation
 import cv2
 import random
-img = cv2.imread("C:/Users/MIR FAISAL/Documents/Python/Machine Learning/Open - CV/EYE.jpg",1)
+img = cv2.imread("C:/Users/NAME/Documents/Python/Machine Learning/Open - CV/EYE.jpg",1)
 img = cv2.resize(img,(400,400))
 img = cv2.rotate(img,cv2.ROTATE_90_CLOCKWISE)
 '''print("The pixels of Image are: " , img) # prints a numpy array
